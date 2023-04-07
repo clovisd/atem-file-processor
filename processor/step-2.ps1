@@ -10,13 +10,12 @@ $dir2 = $args[1]
 $outputDir = $args[2]
 
 Write-Host "Step 3: Merging Playlists Together" -ForegroundColor White -BackgroundColor Green
-Write-Host " " -ForegroundColor Black
-Write-Host " " -ForegroundColor Black
-Write-Host " " -ForegroundColor Black
-Write-Host " " -ForegroundColor Black
-Write-Host " " -ForegroundColor Black
-Write-Host " " -ForegroundColor Black
 Write-Host "This process provides additional information." -ForegroundColor DarkGray -BackgroundColor Black
+Write-Host " " -ForegroundColor Black
+Write-Host " " -ForegroundColor Black
+Write-Host " " -ForegroundColor Black
+Write-Host " " -ForegroundColor Black
+Write-Host " " -ForegroundColor Black
 
 # Loop through each Camera file
 for ($camNum = 1; $camNum -le 8; $camNum++) {

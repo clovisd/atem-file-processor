@@ -10,7 +10,7 @@ $dir2 = $args[1]
 $outputDir = $args[2]
 
 Write-Host "Step 5: Merging Audio Track & Final Playlist " -ForegroundColor White -BackgroundColor Green
-Write-Host " " -ForegroundColor Black
+Write-Host "This process provides additional information." -ForegroundColor DarkGray -BackgroundColor Black
 Write-Host " " -ForegroundColor Black
 Write-Host " " -ForegroundColor Black
 Write-Host " " -ForegroundColor Black
