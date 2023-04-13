@@ -20,7 +20,7 @@ foreach ($file in $mp4Files) {
     # $cameraNum = [regex]::Match($file.Name, "CAM (\d)").Groups[1].Value
     # $episodeNum = [regex]::Match($file.Name, "Episode (\d)").Groups[1].Value
 
-    $match = [regex]::Match($file.Name, "CAM (\d+) (\d+)\.mp4")
+    $match = [regex]::Match($file.Name, "CAM (\d+)(?: (\d+))?\.mp4")
     $cameraNum = $match.Groups[1].Value
     # $partNum = $match.Groups[2].Value
 
